@@ -44,12 +44,6 @@ class HideWithKeyboard extends Component {
     if (this.state.keyboardUp) {
       return (<View />);
     }
-
-    if (this.props.style) {
-      <View style={this.props.style}>
-        {this.props.children}
-      </View>
-    }
     
     return (
       <View style={this.props.style}>
