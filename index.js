@@ -64,7 +64,7 @@ HideWithKeyboard.propTypes = {
     PropTypes.array,
     PropTypes.object,
   ]),
-  style: PropTypes.any
+  style: View.propTypes.style
 };
 
 class ShowWithKeyboard extends HideWithKeyboard {
